@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.menu_bar{
+    border: 1px solid grey;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+} 
+img{
+width: 100px;
+
+    
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.menu_bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover{
+    color: red;
+
+}
+.dropdown_menu{
+    display: none;
+}
+.menu_bar ul li:hover .dropdown_menu{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: white;
+}
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+    border: 1px solid rgb(204, 201, 201);
+}
+.body-img{
+   
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: end;
+}
+.img-main{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    
+}
+.btn{
+    width: 139px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    margin-top: 250px;
+    
+}
+.s-main{
+    
+    background-color: #ebeff7;
+    display: flex;
+    width: 100%;
+    height: 350px;
+    flex-direction: column;
+}
+.recharge{
+   display: flex;
+   justify-content: center;
+    
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.r-btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+}
+.btn-div{
+   
+    margin-top: 30px;
+    margin-left: 420px;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+    
+}
+.r-btn:hover{
+    background-color: black;
+    color: white;
+}
+.form-btn{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+input{
+    border: 1px solid rgb(44, 221, 245);
+    border-radius: 9px;
+    padding: 15px 12px;
+    width: 400px; 
+    font-size: 14px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Tondo, sans-serif;
+    
+   
+    
+}
+input:hover{
+    border: 2px solid rgb(44, 221, 245);
+}
+.m-recha-btn{
+    margin-left: 480px;
+    margin-top: 30px;
+
+}
+.recha-btn{
+    width: 400px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: black;
+    color: white;
+}
+.gb-bar{
+  
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+
+.ofr-bar{
+    background-color: red;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.ofr-img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    
+}
+h5{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ofr-btn{
+    width: 73px;
+    height: 25px;
+    background-color: #ff4949;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-top: 8px;
+    margin-left: 8px;
+    color: white;
+}
+.ofr-btn:hover{
+background-color: grey;
+}
+.buy-new{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+}
+.buy-new-con{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.round-icon{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    
+
+   
+    
+}
+.dot {
+    height: 70px;
+    width: 70px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 25%;
+    
+  }
+  h4{
+    margin-left: 50px;
+  }
+  .sw-airtel{
+    display: flex;
+    width: 40%;
+    height: 80px;
+    background-color:#ff4949;
+    border-radius: 10px;
+    margin-left: 30%;
+  }
+  .sw-airtel img{
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .sw-airtel a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+  }
+  .sw-airtel a span{
+    font-size: small;
+  }
+  .sw-airtel-btn{
+    width: 100px;
+    height: 25px;
+    background-color: #ff4949;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+    cursor: pointer;
+  }
+  .sw-airtel-btn:hover{
+    background-color: grey;
+
+  }
+  .rec-for-u{
+    width: 100%;
+    height: 600px;
+    background-color: #f7f7fa;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgb(214, 211, 211);
+  }
+  .rec-fu{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+  }
+  .rfu-main-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .rec-fu-box1 {
+    width: 30%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(230, 229, 229);
+    
+  }
+  .rec-fu-box2{
+    width: 30%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(230, 229, 229);
+  }
+  .rec-fu-box3{
+    width: 30%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(230, 229, 229);
+  }
+  .img-box1 img{
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+  }
+  .img-box2 img{
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .buy-btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 37px;
+    border: black;
+    margin-right: 110px;
+    margin-top: 20px;
+  }
+  .footer-img {
+    background-image: url('/conversational-widget-bg-web.jpeg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 560px;
+    
+    
+    
+    
+  }
+  .bst-fbr{
+    
+    margin-left: 50px;
+    
+    
+  }
+  .footer-img h1{
+    color: white;
+    
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .footer-form{
+    width: 27%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(230, 229, 229);
+    margin-top: 100px;
+    margin-left: 400px;
+    
+    
+   
+  }
+  .footer-btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #e3e5ff;
+    margin-left: 90px;
+    
+
+  }
+  .footer-btn button:hover{
+    border: 2px solid gray;
+  }
+  .footer-body{
+    background-color: rgb(243, 244, 245);
+    width: 100%;
+    height: 400px;
+    
+
+  }
+  .footer-text{
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .aitel-explore{
+    
+    margin-top: 20px;
+    
+    
+  }
+  .footer-bdy-box1{
+    
+    width: 25%;
+    height: 140px;
+    border-radius: 13px;
+    border: 1px solid gray;
+    
+  }
+  .footer-bdy-box1 img{
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .footer-bdy-box2 img{
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .footer-bdy-box3 img{
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .footer-bdy-box2{
+    
+    width: 25%;
+    height: 140px;
+    border-radius: 13px;
+    border: 1px solid gray;
+  }
+  .footer-bdy-box3{
+    
+    width: 25%;
+    height: 140px;
+    border-radius: 13px;
+    border: 1px solid gray;
+  }
+  .footer-bdy-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+  }
+  
+  
+  
+ 
+
+
+  
+  
+  
+
+
